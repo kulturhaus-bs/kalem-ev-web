@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalem e.V.</title>
+    <!-- Meta Tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="NT">
+    <meta name="description" content="Kalem e.V.">
+    <meta name="keywords" content="Kalem e.V.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- - - - -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <!-- - - - -->
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/odometer-theme-minimal.css">
+    <!-- - - - -->
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style_light.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- - - - -->
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="load-splitter"></div>
+        <div class="load-splitter"></div>
+        <div class="loader">
+            <p class="text">Willkommen</p>
+            <p class="text">Welcome</p>
+            <p class="text">Hoş geldiniz</p>
+            <div class="loading-bar">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- - - - -->
+
+    <!-- Start Header -->
+    <header class="header-sliding">
+        <nav class="navbar w-100 navbar-expand-lg">
+            <div class="container">
+                <a style="font-size: 20px; text-decoration: none; color: inherit" href="#home">
+                    <img src="images/logo.png" style="border: 0; float: left; margin-right: 15px" width="30" height="60" alt=""/>
+                    <span><strong>Kalem e.V.</strong></span>
+                </a>
+                <button id="nav-button" class="navbar-toggler menu-toggle-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="header-nav-icon"></span>
+                    <span class="header-nav-icon"></span>
+                    <span class="header-nav-icon"></span>
+                </button>
+                <div class="ul-cont collapse navbar-collapse ms-0 ms-lg-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-right ms-0 ms-lg-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link active" href="#home" data-scroll="home"><span id="menu-home">Startseite</span></a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#about" data-scroll="about"><span id="menu-about">Über Uns</span></a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#activities" data-scroll="activities"><span id="menu-activities">Aktivitäten</span></a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#gallery" data-scroll="gallery"><span id="menu-gallery">Galerie</span></a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#trainers" data-scroll="trainers"><span id="menu-trainers">Unsere Trainer</span></a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#blog" data-scroll="blog">Blog</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#contact" data-scroll="contact"><span id="menu-contact">Kontakt</span></a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="calendar.html"><span id="menu-calendar">Kalender</span></a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <select id="language-select" class="form-select nav-item mx-1" style="width: 90px; font-weight: bold; border: none; margin-top: 2px; visibility: hidden">
+                                <option selected value="de">🇩🇪 DE</option>
+                                <option value="en">🇬🇧 EN</option>
+                                <option value="tr">🇹🇷 TR</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Home -->
+    <section class="home d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="home-text text-center text-md-start">
+                <p class="name"><span id="banner-title" style="font-weight:bold;">Kalem e.V.</span></p>
+                <div class="head-text" id="home-text-changer">
+                    <h2 class="ah-headline">
+                        <span class="ah-words-wrapper">
+                            <b class="is-visible"><span id="banner-text-1">Soziale Aktivitäten</span></b>
+                            <b><span id="banner-text-2">Bildungsprogramme</span></b>
+                            <b><span id="banner-text-3">Kulturelle Aktivitäten</span></b>
+                        </span>
+                    </h2>
+                </div>
+                <!--<div class="home-social d-flex justify-content-center justify-content-md-start mt-3">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <!-- End Home -->
+
+    <!-- Start About -->
+    <section class="about section-padding" id="about">
+        <div class="container d-flex flex-column flex-md-row">
+            <div class="image wow fadeInLeft">
+                <img class="img-fluid w-100" src="images/about.jpeg" alt="about">
+                <div class="movable-border">
+                    <span></span>
+                </div>
+            </div>
+            <div class="about-content wow fadeInRight">
+                <div class="main-heading about-main-heading mx-auto mx-md-0">
+                    <h2 id="about-title">ÜBER UNS</h2>
+                </div>
+                <p id="about-text" class="about-text">Kalem e.V.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Activities -->
+    <section class="services section-padding" id="activities">
+        <div class="container">
+            <div class="main-heading mx-auto">
+                <h2 id="activity-title" class="main-head-animation">AKTIVITÄTEN</h2>
+            </div>
+            <div class="services-field mt-4 row">
+                <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp">
+                    <div class="serv-cont cursor-pointer-hover p-3 position-relative">
+                        <div class="icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h3 class="text-center pt-4 pb-2"><span id="a1-title">Musikklub</span></h3>
+                        <p class="text-center"><span id="a1-description">Ab Juli bietet unser Musikclub für unsere Mitglieder und deren Kinder kostenlose Gitarrenkurse an.</span></p>
+                    </div>
+                </div>
+                <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="serv-cont cursor-pointer-hover p-3 position-relative">
+                        <div class="icon">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                        <h3 class="text-center pt-4 pb-2"><span id="a2-title">Sportklub</span></h3>
+                        <p class="text-center"><span id="a2-description">Unser Sportverein Sportklub Sportveranstaltungen und Turniere in den Bereichen Fußball, Volleyball, Tischtennis, Bowling, Billard und eSport.</span></p>
+                    </div>
+                </div>
+                <div class="serv-box mb-2 mt-5 col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="serv-cont cursor-pointer-hover p-3 position-relative">
+                        <div class="icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h3 class="text-center pt-4 pb-2"><span id="a3-title">Deutschland Club</span></h3>
+                        <p class="text-center"><span id="a3-description">Unser Deutschland-Club trägt dazu bei, die Integration in das deutsche Leben zu erleichtern.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Activities -->
+
+    <!-- Start Gallery -->
+    <section class="portfolio section-padding" id="gallery">
+        <div class="container">
+            <div class="main-heading mx-auto">
+                <h2 id="gallery-title" class="main-head-animation">GALERIE</h2>
+            </div>
+            <div class="port-field row" id="portfolio-shuffle">
+                <div class="mix prog-box col-12 col-md-6 col-lg-4 mb-4" data-order="1">
+                    <a data-fancybox="gallery-summercup2023" class="d-block position-relative" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/01.jpg">
+                        <img class="img-fluid w-100 d-block" src="images/gallery/fifa-summer-cup-2023/01.jpg" alt="PS FIFA Turniere | Summer Cup 2023">
+                        <div class="port-disc">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fas fa-search-plus"></i>
+                            <h4 id="gallery-title1">Unterhaltung</h4>
+                            <p id="gallery-description1" class="type mb-0">PS FIFA Turniere | Summer Cup 2023</p>
+                        </div>
+                    </a>
+                    <div style="display:none">
+                        <a data-fancybox="gallery-summercup2023" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/02.jpg">
+                            <img src="images/gallery/fifa-summer-cup-2023/02.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-summercup2023" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/03.jpg">
+                            <img src="images/gallery/fifa-summer-cup-2023/03.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-summercup2023" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/04.jpg">
+                            <img src="images/gallery/fifa-summer-cup-2023/04.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-summercup2023" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/05.jpg">
+                            <img src="images/gallery/fifa-summer-cup-2023/05.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-summercup2023" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/06.jpg">
+                            <img src="images/gallery/fifa-summer-cup-2023/06.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-summercup2023" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/07.jpg">
+                            <img src="images/gallery/fifa-summer-cup-2023/07.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-summercup2023" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/08.jpg">
+                            <img src="images/gallery/fifa-summer-cup-2023/08.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-summercup2023" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/09.jpg">
+                            <img src="images/gallery/fifa-summer-cup-2023/09.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-summercup2023" data-caption="PS FIFA Turniere | Summer Cup 2023" href="images/gallery/fifa-summer-cup-2023/10.jpg">
+                            <img src="images/gallery/fifa-summer-cup-2023/10.jpg" />
+                        </a>
+                    </div>
+                </div>
+                <div class="mix prog-box col-12 col-md-6 col-lg-4 mb-4" data-order="2">
+                    <a data-fancybox="gallery-guitar-course" class="d-block position-relative" data-caption="Gitarre lernen" href="images/gallery/guitar-course/01.jpg">
+                        <img class="img-fluid w-100 d-block" src="images/gallery/guitar-course/01.jpg" alt="Gitarre lernen">
+                        <div class="port-disc">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fas fa-search-plus"></i>
+                            <h4 id="gallery-title2">Bildungs</h4>
+                            <p id="gallery-description2" class="type mb-0">Gitarre lernen</p>
+                        </div>
+                    </a>
+                    <div style="display:none">
+                        <a data-fancybox="gallery-guitar-course" data-caption="Gitarre lernen" href="images/gallery/guitar-course/02.jpg">
+                            <img src="images/gallery/guitar-course/02.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-guitar-course" data-caption="Gitarre lernen" href="images/gallery/guitar-course/03.jpg">
+                            <img src="images/gallery/guitar-course/03.jpg" />
+                        </a>
+                        <a data-fancybox="gallery-guitar-course" data-caption="Gitarre lernen" href="images/gallery/guitar-course/04.jpg">
+                            <img src="images/gallery/guitar-course/04.jpg" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a class="d-block position-relative" href="gallery.html">
+                        <img class="img-fluid w-100 d-block" src="images/gallery/all.jpg" alt="Mehr sehen">
+                        <div class="port-disc">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fas fa-images"></i>
+                            <h4 id="gallery-see-more-title">Mehr sehen</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery -->
+
+    <!-- Start Trainers -->
+    <section class="reviews section-padding" id="trainers">
+        <div class="container">
+            <div class="main-heading mx-auto">
+                <h2 id="trainers-title" class="main-head-animation">UNSERE TRAINER</h2>
+            </div>
+            <div class="review-field row justify-content-between align-items-center">
+                <div class="wow bounceInUp review-swiper-image col-3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide px-0">
+                            <img class="img-fluid w-100" src="images/trainers/ibrahim.png" alt="trainers">
+                        </div>
+                        <div class="swiper-slide px-0">
+                            <img class="img-fluid w-100" src="images/trainers/seyma.png" alt="trainers">
+                        </div>
+                        <div class="swiper-slide px-0">
+                            <img class="img-fluid w-100" src="images/trainers/berra.jpg" alt="trainers">
+                        </div>
+                        <div class="swiper-slide px-0">
+                            <img class="img-fluid w-100" src="images/trainers/mehmet.png" alt="trainers">
+                        </div>
+                        <div class="swiper-slide px-0">
+                            <img class="img-fluid w-100" src="images/trainers/nt.png" alt="trainers">
+                        </div>
+                    </div>
+                </div>
+                <div class="review-swiper-text position-relative col-12 col-lg-8">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="client-info">
+                                <div class="review-head py-3">
+                                    <img class="text-slider-image mx-auto" src="images/trainers/ibrahim.png" alt="clients reviews">
+                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
+                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
+                                        <div class="review-details">
+                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Trainer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <q id="trainer3-profession">Schach | Origami</q>
+                                <div class="review-dates d-flex justify-content-between mt-3">
+                                    <div class="client-project"><p id="trainer3-description">Ibrahim hat gute Erfahrung im Unterrichten. Er unterrichtet Schach und Origami.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-info">
+                                <div class="review-head py-3">
+                                    <img class="text-slider-image mx-auto" src="images/trainers/seyma.png" alt="clients reviews">
+                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
+                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
+                                        <div class="review-details">
+                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Trainer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <q id="trainer1-profession">Religionsunterricht | Soziale Arbeit mit Kindern</q>
+                                <div class="review-dates d-flex justify-content-between mt-3">
+                                    <div class="client-project"><p id="trainer1-description">Şeyma unterrichtet mehr als 50 Kinder in Religion. Gleichzeitig engagiert sie sich in der sozialen Arbeit mit Kindern und organisiert entsprechende Aktivitäten.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-info">
+                                <div class="review-head py-3">
+                                    <img class="text-slider-image mx-auto" src="images/trainers/berra.jpg" alt="clients reviews">
+                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
+                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
+                                        <div class="review-details">
+                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Trainer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <q id="trainer2-profession">Gitarre</q>
+                                <div class="review-dates d-flex justify-content-between mt-3">
+                                    <div class="client-project"><p id="trainer2-description">Berra bringt Mädchen das Gitarrespielen bei.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-info">
+                                <div class="review-head py-3">
+                                    <img class="text-slider-image mx-auto" src="images/trainers/mehmet.png" alt="clients reviews">
+                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
+                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
+                                        <div class="review-details">
+                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Trainer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <q id="trainer5-profession">Orientalische (Ney) Flöte und IT-Sicherheit</q>
+                                <div class="review-dates d-flex justify-content-between mt-3">
+                                    <div class="client-project"><p id="trainer5-description">Ich bin ein IT Security Engineer mit einer Leidenschaft für orientalische Musik und IT-Sicherheit. Mein Ziel ist es, Menschen sowohl in der wunderbaren Welt der orientalischen Flöte, insbesondere der Ney-Flöte, als auch in den wichtigen Aspekten der IT-Sicherheit zu schulen und zu unterstützen.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-info">
+                                <div class="review-head py-3">
+                                    <img class="text-slider-image mx-auto" src="images/trainers/nt.png" alt="clients reviews">
+                                    <div class="rev-box d-flex align-items-center justify-content-lg-start justify-content-center">
+                                        <i class="fas fa-chevron-circle-right pe-3 pt-2"></i>
+                                        <div class="review-details">
+                                            <h4 class="client-name mb-2" style="margin-top: 0.7rem">Trainer</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <q id="trainer4-profession">Schach | Gitarre</q>
+                                <div class="review-dates d-flex justify-content-between mt-3">
+                                    <div class="client-project"><p id="trainer4-description">Trainer unterrichtet Kinder im Gitarrenspiel und unterstützt Ibrahim im Schachunterricht.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-white cursor-pointer-hover"></div>
+                        <div class="swiper-button-next d-none d-sm-flex swiper-button-white cursor-pointer-hover"></div>
+                        <div class="swiper-button-prev d-none d-sm-flex swiper-button-white cursor-pointer-hover"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Trainers -->
+
+    <!-- Start Blog -->
+    <section class="blog section-padding" id="blog">
+        <div class="container">
+            <div class="main-heading mx-auto">
+                <h2 class="main-head-animation">BLOG</h2>
+            </div>
+            <div class="blog-field pt-4 row">
+                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4">
+                    <div class="blog-content">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal1" data-popup="first-pop" class="show-pop image d-block position-relative overflow-hidden">
+                            <img class="img-fluid w-100 d-block" src="images/blog/ps-fifa-summer-cup-2023.png" alt="blog image">
+                            <span id="blog1-type" class="blog-title">Unterhaltung</span>
+                        </a>
+                        <h3 id="blog1-title" class="blog-head my-2 px-2">PS FIFA Turniere | Summer Cup 2023</h3>
+                        <p id="blog1-short-description" class="blog-text mb-3 px-2">Unser Sportklub hat ein PS4 FIFA23-Turnier organisiert.</p>
+                    </div>
+                </div>
+                <div class="wow fadeInDown blog-box mb-4 col-12 col-md-6 col-lg-4" data-wow-delay="0.4s">
+                    <div class="blog-content">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#blogModal2" class="image d-block position-relative overflow-hidden">
+                            <img class="img-fluid w-100 d-block" src="images/blog/guitar-course.png" alt="blog image">
+                            <span id="blog2-type" class="blog-title">Bildungs</span>
+                        </a>
+                        <h3 id="blog2-title" class="blog-head my-2 px-2">Gitarre lernen</h3>
+                        <p id="blog2-short-description" class="blog-text mb-3 px-2">Unser Musikclub bietet kostenlose Gitarrenkurse an.</p>
+                    </div>
+                </div>
+                <div class="wow fadeInDown blog-box mb-4 mx-auto col-12 col-md-6 col-lg-4" data-wow-delay="0.8s">
+                    <div class="blog-content">
+                        <a href="blogs.html" class="image d-block position-relative overflow-hidden">
+                            <img class="img-fluid w-100 d-block" src="images/blog/more-blogs.png" alt="blog image">
+                            <span class="blog-title"></span>
+                        </a>
+                        <h3 id="blog-more-title" class="blog-head my-2 px-2">Weitere Blogs</h3>
+                        <p id="blog-more-short-description" class="blog-text mb-3 px-2">Besuchen Sie unsere Blog-Seite, um mehr zu sehen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog -->
+
+    <!-- Start Contact -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="main-heading mx-auto">
+                <h2 id="contact-title" class="main-head-animation">KONTAKT</h2>
+            </div>
+            <div class="contact-field my-4 row flex-wrap-reverse">
+                <div class="contact-info-field p-2 col-12 col-md-12">
+                    <div class="location">
+                        <i class="fas fa-street-view"></i>
+                        <address class="mb-0">Gifhorn</address>
+                    </div>
+                    <div class="email">
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:e.V.Kalem@gmail.com">e.V.Kalem@gmail.com</a>
+                    </div>
+                    <!--<div class="phone">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:#">-</a>
+                    </div>
+                    <div class="social">
+                        <i class="fas fa-share-alt"></i>
+                        <div class="social-links pt-2 d-flex align-items-center justify-content-center">
+                            <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container position-relative d-flex flex-column flex-md-row align-items-center justify-content-between">
+            <p class="copy mb-2 mb-md-0">&copy; 2023 Kalem e.V.</p>
+            <!--<div class="addition-links">
+                <a href="#">Privacy Policy</a>
+                <span></span>
+                <a href="#">Terms &amp; Conditions</a>
+            </div>-->
+            <a class="scroll-top" href="#">
+                <i class="fas fa-angle-up"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- start popup -->
+    <div class="modal fade" id="blogModal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="container">
+                <div class="modal-content">
+                    <div class="modal-header position-relative">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="far fa-times-circle"></i>
+                        </button>
+                    </div>
+                    <span id="blog1-modal-type" class="pop-info">Unterhaltung</span>
+                    <img src="images/blog/ps-fifa-summer-cup-2023.png" alt="blog image">
+                    <div class="modal-body">
+                        <h3 id="blog1-modal-title" class="blog-title">PS FIFA Turniere | Summer Cup 2023</h3>
+                        <p id="blog1-modal-description">Unser Sportverein hat ein PlayStation 4 FIFA23-Turnier organisiert. Das Turnier begann mit dem Frühstück, das wir für 20 Teilnehmer und ihre Eltern vorbereiteten, die kamen, um ihre Kinder zu unterstützen. Insgesamt wurden 38 Spiele ausgetragen, um den 1., 2. und 3. Platz zu ermitteln. Die Kinder hatten dort viel Spaß. Die Spieler lernten die Bedeutung von kompetitivem eSport und Fairplay-Regeln kennen. Den Gewinnern des Turniers wurden Medaillen und Geschenkgutscheine verliehen. Weitere Fotos finden Sie in unserer <a href="gallery.html#gallery-fifa-summer-cup-2023-1">Turniergalerie.</a></p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                        <div class="blog-share d-flex">
+                        </div>
+                        <span class="date">
+                            <i class="far fa-calendar-alt"></i>
+                            18 Jun 2023
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="blogModal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="container">
+                <div class="modal-content">
+                    <div class="modal-header position-relative">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="far fa-times-circle"></i>
+                        </button>
+                    </div>
+                    <span class="pop-info">Bildungs</span>
+                    <img src="images/blog/guitar-course.png" alt="blog image">
+                    <div class="modal-body">
+                        <h3 id="blog2-modal-title" class="blog-title">Gitarre lernen</h3>
+                        <p id="blog2-modal-description">Ab Juli bietet unser Musikclub Gitarrenkurse an. In diesem Kurs lernen die Teilnehmer die Grundlagen der Gitarre, Noten, Tabulatur und Akkorde. Sie werden Kompositionen deutscher Komponisten aus der Renaissance und der Klassik wie Bethooven, Bach, Pachelbel und Mozart studieren. Sie werden auch spanische klassische Gitarrenkompositionen studieren.</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                        <div class="blog-share d-flex">
+                        </div>
+                        <span class="date">
+                            <i class="far fa-calendar-alt"></i>
+                            15 Jul 2013
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End popup -->
+
+    <!-- Start Cursor -->
+    <!--<div class="fancy-cursor-dot"></div>-->
+    <!-- End Cursor -->
+
+    <!-- JS Files -->
+    <script src="js/jQuery.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.animatedheadline.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/odometer.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/main.js"></script>
+    <!-- - - - -->
+</body>
+</html>
