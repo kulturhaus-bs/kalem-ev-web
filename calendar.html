@@ -32,125 +32,125 @@
     <!-- - - - -->
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="load-splitter"></div>
-        <div class="load-splitter"></div>
-        <div class="loader">
-            <p class="text">Willkommen</p>
-            <p class="text">Welcome</p>
-            <p class="text">Hoş geldiniz</p>
-            <div class="loading-bar">
-                <span></span>
+<!-- Preloader -->
+<div class="preloader">
+    <div class="load-splitter"></div>
+    <div class="load-splitter"></div>
+    <div class="loader">
+        <p class="text">Willkommen</p>
+        <p class="text">Welcome</p>
+        <p class="text">Hoş geldiniz</p>
+        <div class="loading-bar">
+            <span></span>
+        </div>
+    </div>
+</div>
+<!-- - - - -->
+
+<!-- Start Header -->
+<header class="header-sliding">
+    <nav class="navbar w-100 navbar-expand-lg">
+        <div class="container">
+            <a style="font-size: 20px; text-decoration: none; color: inherit" href="index.html">
+                <img src="images/logo.png" style="border: 0; float: left; margin-right: 15px" width="30" height="60"/>
+                <span><strong>Braunschweiger Kultur- und <br>Bildungshaus e.V.</strong></span>
+            </a>
+            <button id="nav-button" class="navbar-toggler menu-toggle-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="header-nav-icon"></span>
+                <span class="header-nav-icon"></span>
+                <span class="header-nav-icon"></span>
+            </button>
+            <div class="ul-cont collapse navbar-collapse ms-0 ms-lg-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar-right ms-0 ms-lg-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link active" href="index.html" data-scroll="home"><span id="menu-home">Startseite</span></a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#calendar" data-scroll="calendar"><span id="menu-calendar">Kalender</span></a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#contact" data-scroll="contact"><span id="menu-contact">Kontakt</span></a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <select id="language-select" class="form-select nav-item mx-1" style="width: 90px; font-weight: bold; border: none; margin-top: 2px; visibility: hidden">
+                            <option selected value="de">🇩🇪 DE</option>
+                            <option value="en">🇬🇧 EN</option>
+                            <option value="tr">🇹🇷 TR</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- End Header -->
+
+<!-- Start Calendar -->
+<section class="portfolio section-padding" id="calendar">
+    <div class="container">
+        <div class="main-heading mx-auto">
+            <h2 id="calendar-title" class="main-head-animation">KALENDER</h2>
+        </div>
+        <div class="port-field row">
+            <iframe id="iframe-calendar" src="https://calendar.google.com/calendar/embed?src=e.v.kalem%40gmail.com&ctz=Europe%2FBerlin" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+</section>
+<!-- End Calendar -->
+
+<!-- Start Contact -->
+<section class="contact section-padding" id="contact">
+    <div class="container">
+        <div class="main-heading mx-auto">
+            <h2 id="contact-title" class="main-head-animation">KONTAKT</h2>
+        </div>
+        <div class="contact-field my-4 row flex-wrap-reverse">
+            <div class="contact-info-field p-2 col-12 col-md-12">
+                <div class="location">
+                    <i class="fas fa-street-view"></i>
+                    <address class="mb-0">Gifhorn</address>
+                </div>
+                <div class="email">
+                    <i class="far fa-envelope"></i>
+                    <a href="mailto:kulturhaus-bs@gmail.com">Kalem e.V.</a>
+                </div>
             </div>
         </div>
     </div>
-    <!-- - - - -->
+</section>
+<!-- End Contact -->
 
-    <!-- Start Header -->
-    <header class="header-sliding">
-        <nav class="navbar w-100 navbar-expand-lg">
-            <div class="container">
-                <a style="font-size: 20px; text-decoration: none; color: inherit" href="index.html">
-                    <img src="images/logo.png" style="border: 0; float: left; margin-right: 15px" width="30" height="60"/>
-                    <span><strong>Kalem e.V.</strong></span>
-                </a>
-                <button id="nav-button" class="navbar-toggler menu-toggle-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="header-nav-icon"></span>
-                    <span class="header-nav-icon"></span>
-                    <span class="header-nav-icon"></span>
-                </button>
-                <div class="ul-cont collapse navbar-collapse ms-0 ms-lg-auto" id="navbarSupportedContent">
-                    <ul class="navbar-nav navbar-right ms-0 ms-lg-auto mb-2 mb-lg-0">
-                        <li class="nav-item mx-1">
-                            <a class="nav-link active" href="index.html" data-scroll="home"><span id="menu-home">Startseite</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="#calendar" data-scroll="calendar"><span id="menu-calendar">Kalender</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="#contact" data-scroll="contact"><span id="menu-contact">Kontakt</span></a>
-                        </li>
-                        <li class="nav-item mx-1">
-                            <select id="language-select" class="form-select nav-item mx-1" style="width: 90px; font-weight: bold; border: none; margin-top: 2px; visibility: hidden">
-                                <option selected value="de">🇩🇪 DE</option>
-                                <option value="en">🇬🇧 EN</option>
-                                <option value="tr">🇹🇷 TR</option>
-                            </select>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- End Header -->
+<!-- Start Footer -->
+<footer>
+    <div class="container position-relative d-flex flex-column flex-md-row align-items-center justify-content-between">
+        <p class="copy mb-2 mb-md-0">&copy; 2024 Kalem e.V.</p>
+        <!--<div class="addition-links">
+            <a href="#">Privacy Policy</a>
+            <span></span>
+            <a href="#">Terms &amp; Conditions</a>
+        </div>-->
+        <a class="scroll-top" href="#">
+            <i class="fas fa-angle-up"></i>
+        </a>
+    </div>
+</footer>
+<!-- End Footer -->
 
-    <!-- Start Calendar -->
-    <section class="portfolio section-padding" id="calendar">
-        <div class="container">
-            <div class="main-heading mx-auto">
-                <h2 id="calendar-title" class="main-head-animation">KALENDER</h2>
-            </div>
-            <div class="port-field row">
-                <iframe id="iframe-calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23039BE5&ctz=Europe%2FBerlin&showPrint=0&showTitle=1&title=Kalem%20e.V.%20-%20Gifhorn&mode=WEEK&src=ZS52LmthbGVtQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZGUuZ2VybWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-            </div>
-        </div>
-    </section>
-    <!-- End Calendar -->
+<!-- Start Cursor -->
+<!--<div class="fancy-cursor-dot"></div>-->
+<!-- End Cursor -->
 
-    <!-- Start Contact -->
-    <section class="contact section-padding" id="contact">
-        <div class="container">
-            <div class="main-heading mx-auto">
-                <h2 id="contact-title" class="main-head-animation">KONTAKT</h2>
-            </div>
-            <div class="contact-field my-4 row flex-wrap-reverse">
-                <div class="contact-info-field p-2 col-12 col-md-12">
-                    <div class="location">
-                        <i class="fas fa-street-view"></i>
-                        <address class="mb-0">Gifhorn</address>
-                    </div>
-                    <div class="email">
-                        <i class="far fa-envelope"></i>
-                        <a href="mailto:e.V.Kalem@gmail.com">e.V.Kalem@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Contact -->
-
-    <!-- Start Footer -->
-    <footer>
-        <div class="container position-relative d-flex flex-column flex-md-row align-items-center justify-content-between">
-            <p class="copy mb-2 mb-md-0">&copy; 2023 Kalem e.V.</p>
-            <!--<div class="addition-links">
-                <a href="#">Privacy Policy</a>
-                <span></span>
-                <a href="#">Terms &amp; Conditions</a>
-            </div>-->
-            <a class="scroll-top" href="#">
-                <i class="fas fa-angle-up"></i>
-            </a>
-        </div>
-    </footer>
-    <!-- End Footer -->
-
-    <!-- Start Cursor -->
-    <!--<div class="fancy-cursor-dot"></div>-->
-    <!-- End Cursor -->
-
-    <!-- JS Files -->
-    <script src="js/jQuery.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.animatedheadline.js"></script>
-    <script src="js/swiper.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/odometer.js"></script>
-    <script src="js/mixitup.js"></script>
-    <script src="js/fancybox.umd.js"></script>
-    <script src="js/main.js"></script>
-    <!-- - - - -->
+<!-- JS Files -->
+<script src="js/lib/jQuery.js"></script>
+<script src="js/lib/jquery.appear.js"></script>
+<script src="js/lib/bootstrap.js"></script>
+<script src="js/lib/jquery.animatedheadline.js"></script>
+<script src="js/lib/swiper.js"></script>
+<script src="js/lib/wow.js"></script>
+<script src="js/lib/odometer.js"></script>
+<script src="js/lib/mixitup.js"></script>
+<script src="js/lib/fancybox.umd.js"></script>
+<script src="js/main.js"></script>
+<!-- - - - -->
 </body>
 </html>

@@ -38,9 +38,9 @@
   },
   "banner": {
     "title": {
-      "de": "Kalem e.V.",
-      "en": "Kalem e.V.",
-      "tr": "Kalem e.V."
+      "de": "Braunschweiger Kultur und Bildungshaus",
+      "en": "Braunschweig Cultural and Educational Center",
+      "tr": "Braunschweig Kültür ve Eğitim Merkezi"
     },
     "text1": {
       "de": "Soziale Aktivitäten",
@@ -65,9 +65,9 @@
       "tr": "HAKKIMIZDA"
     },
     "text": {
-      "de": "Kalem e.V.",
-      "en": "Kalem e.V.",
-      "tr": "Kalem e.V."
+      "de": "Unser Verein wurde im Mai 2012 gegründet mit dem Ziel, Bildung, Völkerverständigung und multikulturellen Austausch zu fördern. Wir setzen uns aktiv mit gesellschaftlichen und Integrationsproblemen auseinander und unterstützen Menschen, die aufgrund kultureller Unterschiede Schwierigkeiten in Schule, Universität, Behörden oder Arbeitswelt haben. Unsere Angebote umfassen soziale Beratung, Sprachkurse, Schüleraustauschprogramme, Studienreisen und die Unterstützung ausländischer Gaststudenten. Zudem vergeben wir Stipendien und arbeiten mit verschiedenen Organisationen im In- und Ausland zusammen.",
+      "en": "The Braunschweiger Kultur- und Bildungshaus e.V. is a non-profit organization that aims to promote and support people of all ages and backgrounds. The association is involved in cultural, artistic, linguistic, social and religious areas and offers both courses and various educational programs. This can include learning oriental arts, learning important languages in society, cultural study trips at home and abroad, learning to play musical instruments, visiting art exhibitions and courses in ethics, etc.",
+      "tr": "Braunschweiger Kultur- und Bildungshaus e.V., her yaştan ve geçmişten insanı tanıtmayı ve desteklemeyi amaçlayan kar amacı gütmeyen bir kuruluştur. Dernek kültürel, sanatsal, dilsel, sosyal ve dini alanlarda faaliyet göstermekte ve hem kurslar hem de çeşitli eğitim programları sunmaktadır. Bu, doğu sanatlarını öğrenmeyi, toplumdaki önemli dilleri öğrenmeyi, yurtiçinde ve yurtdışında kültürel çalışma gezilerini, müzik aletlerini çalmayı öğrenmeyi, sanat sergilerini ve etik kurslarını ziyaret etmeyi vb. içerebilir."
     }
   },
   "activity": {
@@ -77,12 +77,12 @@
       "tr": "FAALİYETLER"
     },
     "a1title": {
-      "de": "Musikklub",
-      "en": "Music Club",
-      "tr": "Müzik Kulübü"
+      "de": "Game Programming",
+      "en": "Game Programming",
+      "tr": "Game Programming"
     },
     "a1description": {
-      "de": "Unser Musikclub bietet Unterricht auf verschiedenen Instrumenten und organisiert Konzertbesuche mit Gruppen.",
+      "de": "Ab Juli bietet unser Musikclub für unsere Mitglieder und deren Kinder kostenlose Gitarrenkurse an.",
       "en": "Our music club provides lessons on various instruments, organizes concert visiting with groups.",
       "tr": "Müzik kulübümüz çeşitli enstrümanlar üzerine dersler vermekte, gruplarla konser gezileri düzenlemektedir."
     },
@@ -92,9 +92,9 @@
       "tr": "Spor Kulübü"
     },
     "a2description": {
-      "de": "Unser Sportklub Sportveranstaltungen und Turniere in den Bereichen Fußball, Volleyball, Tischtennis, Bowling, Billard und eSport.",
-      "en": "Our sport club organizes sports event and tournaments in football, volleyball, table tennis, bowling, billiard, eSport.",
-      "tr": "Spor kulübümüz futbol, voleybol, masa tenisi, bowling, bilardo, eSpor branşlarında spor etkinlikleri ve turnuvalar düzenlemektedir."
+      "de": "Unser Sportverein organisiert Sportveranstaltungen und Turniere in verschiedenen Sportarten und im E-Sport.",
+      "en": "Our sport club organizes sports event and tournaments in various types of sport and e-sport.",
+      "tr": "Spor kulübümüz, çeşitli spor ve e-spor dallarında spor etkinlikleri ve turnuvalar düzenlemektedir."
     },
     "a3title": {
       "de": "Deutschland Club",
@@ -137,60 +137,6 @@
       "tr": "Açıklama"
     }
   },
-  "gallery": {
-    "title": {
-      "de": "GALERIE ",
-      "en": "GALLERY",
-      "tr": "GALERİ"
-    },
-    "more": {
-      "de": "Mehr sehen",
-      "en": "See more",
-      "tr": "Hepsi"
-    },
-    "all": {
-      "de": "Alle",
-      "en": "All",
-      "tr": "Hepsi"
-    },
-    "education": {
-      "de": "Bildung",
-      "en": "Education",
-      "tr": "Eğitim"
-    },
-    "activity": {
-      "de": "Aktivität",
-      "en": "Activity",
-      "tr": "Etkinlik"
-    },
-    "entertainment": {
-      "de": "Unterhaltung",
-      "en": "Entertainment",
-      "tr": "Eğlence"
-    },
-    "images": {
-      "description1": {
-        "de": "PS FIFA Turniere",
-        "en": "PS FIFA Tournament",
-        "tr": "PS FIFA Turnuva"
-      },
-      "description2": {
-        "de": "Gitarre lernen",
-        "en": "Guitar course",
-        "tr": "Gitar kursu"
-      },
-      "description3": {
-        "de": "Schach lernen",
-        "en": "Chess course",
-        "tr": "Satranç dersi"
-      },
-      "description4": {
-        "de": "Origami lernen",
-        "en": "Origami course",
-        "tr": "Origami dersi"
-      }
-    }
-  },
   "trainers": {
     "title": {
       "de": "UNSERE TRAINER",
@@ -204,9 +150,9 @@
         "tr": "Dinî eğitim | Çocuk Gelişimi"
       },
       "description": {
-        "de": "Trainer1 unterrichtet mehr als 50 Kinder in Religion. Gleichzeitig engagiert sie sich in der sozialen Arbeit mit Kindern und organisiert entsprechende Aktivitäten.",
-        "en": "Trainer1 teaches Quran to more than 20 children. At the same time she organizes child development activities.",
-        "tr": "Trainer1, 20'den fazla çocuğa Kuran öğretiyor. Aynı zamanda çocuk gelişimi etkinlikleri düzenlemektedir."
+        "de": "Şeyma unterrichtet mehr als 50 Kinder in Religion. Gleichzeitig engagiert sie sich in der sozialen Arbeit mit Kindern und organisiert entsprechende Aktivitäten.",
+        "en": "Şeyma teaches Quran to more than 20 children. At the same time she organizes child development activities.",
+        "tr": "Şeyma, 20'den fazla çocuğa Kuran öğretiyor. Aynı zamanda çocuk gelişimi etkinlikleri düzenlemektedir."
       }
     },
     "trainer2": {
@@ -216,9 +162,9 @@
         "tr": "Gitar"
       },
       "description": {
-        "de": "Trainer2 bringt Mädchen das Gitarrespielen bei.",
-        "en": "Trainer2 teachs girls how to play guitar.",
-        "tr": "Trainer2 kızlara gitar çalmayı öğretiyor."
+        "de": "Berra bringt Mädchen das Gitarrespielen bei.",
+        "en": "Berra teachs girls how to play guitar.",
+        "tr": "Berra kızlara gitar çalmayı öğretiyor."
       }
     },
     "trainer3": {
@@ -228,9 +174,9 @@
         "tr": "Satranç | Origami"
       },
       "description": {
-        "de": "Trainer3 hat gute Erfahrung im Unterrichten. Er unterrichtet Schach und Origami.",
-        "en": "Trainer3 has good experience in teaching. He teaches chess and origami.",
-        "tr": "Trainer3 öğretmenlik konusunda iyi bir deneyime sahiptir. Satranç ve origami öğretiyor."
+        "de": "Ibrahim hat gute Erfahrung im Unterrichten. Er unterrichtet Schach und Origami.",
+        "en": "Ibrahim has good experience in teaching. He teaches chess and origami.",
+        "tr": "İbrahim öğretmenlik konusunda iyi bir deneyime sahiptir. Satranç ve origami öğretiyor."
       }
     },
     "trainer4": {
@@ -240,9 +186,9 @@
         "tr": "Gitar | Satranç"
       },
       "description": {
-        "de": "Trainer4 unterrichtet Kinder im Gitarrenspiel und unterstützt Ibrahim im Schachunterricht.",
-        "en": "Trainer4 teaches children guitar and assists Ibrahim in chess class.",
-        "tr": "Trainer4, çocuklara gitar öğretiyor ve İbrahim'e satranç dersinde yardımcı oluyor."
+        "de": "Nurbek unterrichtet Kinder im Gitarrenspiel und unterstützt Ibrahim im Schachunterricht.",
+        "en": "Nurbek teaches children guitar and assists Ibrahim in chess class.",
+        "tr": "Nurbek, çocuklara gitar öğretiyor ve İbrahim'e satranç dersinde yardımcı oluyor."
       }
     },
     "trainer5": {
@@ -259,16 +205,21 @@
     }
   },
   "blogs": {
-    "blog1": {
+    "title": {
+      "de": "BLOG & GALERIE",
+      "en": "BLOG & GALLERY",
+      "tr": "BLOG & GALERİ"
+    },
+    "fifaSummerCup2023": {
       "type": {
         "de": "Unterhaltung",
         "en": "Entertainment",
         "tr": "Eğlence"
       },
       "title": {
-        "de": "PS FIFA Turniere",
-        "en": "PS FIFA Tournament",
-        "tr": "PS FIFA Turnuva"
+        "de": "PS FIFA Turniere | Summer Cup 2023",
+        "en": "PS FIFA Tournament | Summer Cup 2023",
+        "tr": "PS FIFA Turnuva | Summer Cup 2023"
       },
       "shortDescription": {
         "de": "Unser Sportklub hat ein PS4 FIFA23-Turnier organisiert.",
@@ -276,12 +227,17 @@
         "tr": "Spor Kulübümüz PS4 FIFA23 turnuvası düzenledi."
       },
       "description": {
-        "de": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert. Das Turnier begann mit dem Frühstück, das wir für 20 Teilnehmer und ihre Eltern vorbereiteten, die kamen, um ihre Kinder zu unterstützen. Insgesamt wurden 38 Spiele ausgetragen, um den 1., 2. und 3. Platz zu ermitteln. Die Kinder hatten dort viel Spaß. Die Spieler lernten die Bedeutung von kompetitivem eSport und Fairplay-Regeln kennen. Den Gewinnern des Turniers wurden Medaillen und Geschenkgutscheine verliehen. Weitere Fotos finden Sie in unserer <a href=\"gallery.html#gallery-fifa-summer-cup-2023-1\">Turniergalerie.</a>",
-        "en": "Our Sport Club organized PlayStation 4 FIFA23 tournament. The tournament started with the breakfast that we prepared for 20 participants and their parents who came to support thier kids. In total, 38 matches were played to determine 1st, 2d and 3rd places. Children had a lot of fun there. Players learned about importance of competitive eSport and Fair Play rules. Medals and gift cards were awards to the winners of the tournament. Please visit our tournament <a href=\"gallery.html#gallery-fifa-summer-cup-2023-1\">gallery</a> for more photos.",
-        "tr": "Spor Kulübümüz PlayStation 4 FIFA23 turnuvası düzenledi. Turnuva, çocuklarına destek olmaya gelen 20 katılımcı ve velileri için hazırladığımız kahvaltı ile başladı. 1., 2. ve 3. sırayı belirlemek için toplam 38 maç oynandı. Çocuklar orada çok eğlendiler. Oyuncular, rekabetçi eSpor ve Fair Play kurallarının önemini öğrendiler. Turnuvada dereceye girenlere madalya ve hediye çekleri verildi. Daha fazla fotoğraf için lütfen turnuva <a href=\"gallery.html#gallery-fifa-summer-cup-2023-1\">galerimizi</a> ziyaret edin."
+        "de": "Unser Sportklub hat ein PlayStation 4 FIFA23-Turnier organisiert. Das Turnier begann mit dem Frühstück, das wir für 20 Teilnehmer und ihre Eltern vorbereiteten, die kamen, um ihre Kinder zu unterstützen. Insgesamt wurden 38 Spiele ausgetragen, um den 1., 2. und 3. Platz zu ermitteln. Die Kinder hatten dort viel Spaß. Die Spieler lernten die Bedeutung von kompetitivem eSport und Fairplay-Regeln kennen. Den Gewinnern des Turniers wurden Medaillen und Geschenkgutscheine verliehen.",
+        "en": "Our Sport Club organized PlayStation 4 FIFA23 tournament. The tournament started with the breakfast that we prepared for 20 participants and their parents who came to support thier kids. In total, 38 matches were played to determine 1st, 2d and 3rd places. Children had a lot of fun there. Players learned about importance of competitive eSport and Fair Play rules. Medals and gift cards were awards to the winners of the tournament.",
+        "tr": "Spor Kulübümüz PlayStation 4 FIFA23 turnuvası düzenledi. Turnuva, çocuklarına destek olmaya gelen 20 katılımcı ve velileri için hazırladığımız kahvaltı ile başladı. 1., 2. ve 3. sırayı belirlemek için toplam 38 maç oynandı. Çocuklar orada çok eğlendiler. Oyuncular, rekabetçi eSpor ve Fair Play kurallarının önemini öğrendiler. Turnuvada dereceye girenlere madalya ve hediye çekleri verildi."
+      },
+      "date": {
+        "de": "18 Juni 2023",
+        "en": "18 June 2023",
+        "tr": "18 Haziran 2023"
       }
     },
-    "blog2": {
+    "guitarCourse": {
       "type": {
         "de": "Bildungs",
         "en": "Education",
@@ -301,9 +257,14 @@
         "de": "Ab Juli bietet unser Musikclub Gitarrenkurse an. In diesem Kurs lernen die Teilnehmer die Grundlagen der Gitarre, Noten, Tabulatur und Akkorde. Sie werden Kompositionen deutscher Komponisten aus der Renaissance und der Klassik wie Bethooven, Bach, Pachelbel und Mozart studieren. Sie werden auch spanische klassische Gitarrenkompositionen studieren.",
         "en": "Starting from July, our Music Club will provide guitar courses. In this class participants will learn basics of guitar, notes, tablature, chords. They will study compositions of german compositors from Renesanse and Classical era like Bethooven, Bach, Pachelbel and Mozart. They also will study spanish classical guitar compositions.",
         "tr": "Temmuz ayından itibaren Müzik Kulübümüz gitar kursları vermeye başlayacak. Bu derste katılımcılar gitarın temellerini, notaları, tabloları, akorları öğreneceklerdir. Bethooven, Bach, Pachelbel ve Mozart gibi Renesanse ve Klasik dönem Alman bestecilerinin bestelerini inceleyecekler. Ayrıca İspanyol klasik gitar bestelerini de çalışacaklar."
+      },
+      "date": {
+        "de": "Juli 2023 - Dezember 2023",
+        "en": "July 2023 - December 2023",
+        "tr": "Temmuz 2023 - Aralık 2023"
       }
     },
-    "blog3": {
+    "chessCourse": {
       "type": {
         "de": "Bildungs",
         "en": "Education",
@@ -323,18 +284,173 @@
         "de": "Ab Juli bietet unser Sportclub jedes Wochenende Schachkurse an. In diesem Kurs lernen unsere Schüler die Grundlagen des Schachs, Eröffnungen, Taktiken, Schachstrategien und die Erstellung einer Partieanalyse. Nach dem Unterricht haben die Schüler Spaß daran, gegeneinander zu spielen.",
         "en": "Starting from July, our Sport Club started to provide chess courses every weekend. In this course our students will learn basics of chess, openings, tactics, chess strategy, making game analyse. After the lessons student are having fun by playing against each other.",
         "tr": "Temmuz ayından itibaren Spor Kulübümüz her hafta sonu satranç kursları vermeye başlamıştır. Bu derste öğrencilerimiz satrancın temellerini, açılışları, taktikleri, satranç stratejisini, oyun analizi yapmayı öğreneceklerdir. Derslerin ardından öğrenciler birbirlerine karşı oynayarak eğleniyor."
+      },
+      "date": {
+        "de": "Juli 2023 - Dezember 2023",
+        "en": "July 2023 - December 2023",
+        "tr": "Temmuz 2023 - Aralık 2023"
       }
     },
-    "moreBlogs": {
+    "origamiCourse": {
+      "type": {
+        "de": "Bildungs",
+        "en": "Education",
+        "tr": "Eğitim"
+      },
       "title": {
-        "de": "Weitere Blogs",
-        "en": "More blogs",
-        "tr": "Daha fazla blog"
+        "de": "Origami lernen",
+        "en": "Origami course",
+        "tr": "Origami kursu"
       },
       "shortDescription": {
-        "de": "Besuchen Sie unsere Blog-Seite, um mehr zu sehen",
-        "en": "Visit our blog page to see more.",
-        "tr": "Daha fazlasını görmek için blog sayfamızı ziyaret edin."
+        "de": "Wir haben Origami-Kurse für Kinder angeboten.",
+        "en": "We offered origami courses for children.",
+        "tr": "Çocuklara origami kursları verdik."
+      },
+      "description": {
+        "de": "Wir haben Origami-Workshops für Kinder angeboten, in denen sie die Grundlagen erlernen, verschiedene Faltmethoden ausprobieren und verschiedene für Origami geeignete Papiersorten entdecken können. Unser Ziel war es, eine einladende Umgebung zu schaffen, die das Lernen fördert und die Kreativität, Fantasie und Konzentration der Kinder fördert.",
+        "en": "We have offered origami workshops for children, allowing them to grasp the fundamentals, explore diverse folding methods, and discover different types of paper suitable for origami. Our aim was to cultivate a welcoming environment conducive to learning, nurturing children's creativity, imagination, and focus.",
+        "tr": "Çocuklara origami atölyeleri sunarak temel prensipleri kavramalarını, çeşitli katlama yöntemlerini keşfetmelerini ve origami için uygun farklı kağıt türlerini keşfetmelerini sağladık. Amacımız öğrenmeye yardımcı olan, çocukların yaratıcılığını, hayal gücünü ve odaklanmasını besleyen sıcak bir ortam oluşturmaktı."
+      },
+      "date": {
+        "de": "Juli 2023 - Dezember 2023",
+        "en": "July 2023 - December 2023",
+        "tr": "Temmuz 2023 - Aralık 2023"
+      }
+    },
+    "acGirlsSummerCup2023": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "Asetto Corsa | Girls Summer Cup 2023",
+        "en": "Asetto Corsa | Girls Summer Cup 2023",
+        "tr": "Asetto Corsa | Girls Summer Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Wir haben ein Rennturnier für Mädchen organisiert.",
+        "en": "We organized a car racing tournament for girls.",
+        "tr": "Kızlara yönelik araba yarışı turnuvası düzenledik."
+      },
+      "description": {
+        "de": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
+        "en": "We hosted separate racing simulator tournaments for boys and girls, where they competed in time-attack mode. Participants thoroughly enjoyed the event and gained valuable insights into the importance of adhering to driving regulations. Additionally, they learned about the potential dangers of high-speed driving, even within a simulator environment.",
+        "tr": "Erkekler ve kızlar için, zamanlı saldırı modunda yarıştıkları ayrı yarış simülatörü turnuvalarına ev sahipliği yaptık. Katılımcılar etkinlikten büyük keyif aldılar ve sürüş kurallarına uymanın önemi konusunda değerli bilgiler edindiler. Ek olarak, simülatör ortamında bile yüksek hızda araç kullanmanın potansiyel tehlikelerini öğrendiler."
+      },
+      "date": {
+        "de": "22 Juli 2023",
+        "en": "22 July 2023",
+        "tr": "22 Temmuz 2023"
+      }
+    },
+    "acSummerCup2023": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "Asetto Corsa | Summer Cup 2023",
+        "en": "Asetto Corsa | Summer Cup 2023",
+        "tr": "Asetto Corsa | Summer Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Wir haben ein Rennturnier für Jungen organisiert.",
+        "en": "We organized a car racing tournament for boys.",
+        "tr": "Erkeklere yönelik araba yarışı turnuvası düzenledik."
+      },
+      "description": {
+        "de": "Wir veranstalteten separate Rennsimulator-Turniere für Jungen und Mädchen, bei denen sie im Zeitangriffsmodus gegeneinander antraten. Den Teilnehmern hat die Veranstaltung viel Spaß gemacht und sie konnten wertvolle Einblicke in die Wichtigkeit der Einhaltung der Fahrvorschriften gewinnen. Darüber hinaus lernten sie die potenziellen Gefahren des Hochgeschwindigkeitsfahrens kennen, selbst in einer Simulatorumgebung.",
+        "en": "We hosted separate racing simulator tournaments for boys and girls, where they competed in time-attack mode. Participants thoroughly enjoyed the event and gained valuable insights into the importance of adhering to driving regulations. Additionally, they learned about the potential dangers of high-speed driving, even within a simulator environment.",
+        "tr": "Erkekler ve kızlar için, zamanlı saldırı modunda yarıştıkları ayrı yarış simülatörü turnuvalarına ev sahipliği yaptık. Katılımcılar etkinlikten büyük keyif aldılar ve sürüş kurallarına uymanın önemi konusunda değerli bilgiler edindiler. Ek olarak, simülatör ortamında bile yüksek hızda araç kullanmanın potansiyel tehlikelerini öğrendiler."
+      },
+      "date": {
+        "de": "29 Juli 2023",
+        "en": "29 July 2023",
+        "tr": "29 Temmuz 2023"
+      }
+    },
+    "drivingCourse": {
+      "type": {
+        "de": "Bildungs",
+        "en": "Education",
+        "tr": "Eğitim"
+      },
+      "title": {
+        "de": "Fahren Lernen Im Simulator",
+        "en": "Simulator Driving Course",
+        "tr": "Simülatör Sürüş Kursu"
+      },
+      "shortDescription": {
+        "de": "Wir haben Simulator-Fahrstunden angeboten.",
+        "en": "We have provided simulator driving lessons.",
+        "tr": "Simülatör sürüş dersleri verdik."
+      },
+      "description": {
+        "de": "Wir boten einen Simulator-Fahrkurs an, in dem die Teilnehmer grundlegende Kenntnisse über Fahrtechniken, Parktechniken sowie Verkehrsregeln und Beschilderungen erlangten. Dieser Kurs ist besonders für Kinder von Nutzen, da er die Bedeutung des Erlernens von Verkehrsregeln schon in jungen Jahren betont. Darüber hinaus dient es als wertvolle Vorbereitung für diejenigen, die vor ihrer Fahrprüfung in Deutschland Selbstvertrauen aufbauen möchten.",
+        "en": "We offered a simulator driving course where participants acquired foundational knowledge on driving essentials, parking techniques, and traffic regulations and signage. This course is particularly beneficial for children, emphasizing the significance of learning traffic rules from a young age. Moreover, it serves as valuable preparation for those aiming to build confidence ahead of their driving examinations in Germany.",
+        "tr": "Katılımcıların sürüşle ilgili temel bilgiler, park etme teknikleri, trafik düzenlemeleri ve tabelalar hakkında temel bilgileri edindiği bir simülatör sürüş kursu sunduk. Trafik kurallarını küçük yaşlardan itibaren öğrenmenin önemini vurgulayan bu kurs özellikle çocuklar için faydalıdır. Ayrıca, Almanya'daki ehliyet sınavları öncesinde güven oluşturmayı hedefleyenler için değerli bir hazırlık görevi görmektedir."
+      },
+      "date": {
+        "de": "Oktober 2023 - Dezember 2023",
+        "en": "October 2023 - December 2023",
+        "tr": "Ekim 2023 - Aralık 2023"
+      }
+    },
+    "gridWinterCup2023": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "Grid | Winter Cup 2023",
+        "en": "Grid | Winter Cup 2023",
+        "tr": "Grid | Winter Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Wir haben ein Rennturnier für Jungen organisiert.",
+        "en": "We organized a car racing tournament for boys.",
+        "tr": "Erkeklere yönelik araba yarışı turnuvası düzenledik."
+      },
+      "description": {
+        "de": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
+        "en": "We've arranged separate racing tournaments for girls and boys, this time allowing them to compete against each other on the same online racing track. It was an enjoyable experience for all involved. Our goal was to foster a friendly environment for participants, where they could learn about e-sport competitions, sportsmanship, and the importance of fair play.",
+        "tr": "Kızlar ve erkekler için ayrı yarış turnuvaları düzenledik ve bu kez onların aynı çevrimiçi yarış pistinde birbirleriyle rekabet etmelerine olanak sağladık. Katılan herkes için keyifli bir deneyimdi. Amacımız katılımcılara e-spor müsabakaları, sportmenlik ve adil oyunun önemi hakkında bilgi edinebilecekleri dostane bir ortam oluşturmaktı."
+      },
+      "date": {
+        "de": "9 Dezember 2023",
+        "en": "9 December 2023",
+        "tr": "9 Aralık 2023"
+      }
+    },
+    "gridGirlsWinterCup2023": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "Grid | Girls Winter Cup 2023",
+        "en": "Grid | Girls Winter Cup 2023",
+        "tr": "Grid | Girls Winter Cup 2023"
+      },
+      "shortDescription": {
+        "de": "Wir haben ein Rennturnier für Mädchen organisiert.",
+        "en": "We organized a car racing tournament for girls.",
+        "tr": "Kızlara yönelik araba yarışı turnuvası düzenledik."
+      },
+      "description": {
+        "de": "Wir haben separate Rennturniere für Mädchen und Jungen veranstaltet, bei denen sie dieses Mal auf derselben Online-Rennstrecke gegeneinander antreten können. Es war für alle Beteiligten eine erfreuliche Erfahrung. Unser Ziel war es, ein freundliches Umfeld für die Teilnehmer zu schaffen, in dem sie etwas über E-Sport-Wettbewerbe, Sportlichkeit und die Bedeutung von Fairplay lernen konnten.",
+        "en": "We've arranged separate racing tournaments for girls and boys, this time allowing them to compete against each other on the same online racing track. It was an enjoyable experience for all involved. Our goal was to foster a friendly environment for participants, where they could learn about e-sport competitions, sportsmanship, and the importance of fair play.",
+        "tr": "Kızlar ve erkekler için ayrı yarış turnuvaları düzenledik ve bu kez onların aynı çevrimiçi yarış pistinde birbirleriyle rekabet etmelerine olanak sağladık. Katılan herkes için keyifli bir deneyimdi. Amacımız katılımcılara e-spor müsabakaları, sportmenlik ve adil oyunun önemi hakkında bilgi edinebilecekleri dostane bir ortam oluşturmaktı."
+      },
+      "date": {
+        "de": "16 Dezember 2023",
+        "en": "16 December 2023",
+        "tr": "16 Aralık 2023"
       }
     }
   },

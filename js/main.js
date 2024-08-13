@@ -27,7 +27,7 @@ $(document).ready(function () {
     $(window).scroll(function(){
         // Activating header links on scrolling
         $("section").each(function(){
-            if ($(window).scrollTop() > $(this).offset().top - 1) {
+            if ($(window).scrollTop() > $(this).offset().top - 500) {
                 var sectionID = $(this).attr('id');
                 $("nav li a[data-scroll='" + sectionID +"']")
                 .addClass('active').parent()
@@ -89,14 +89,14 @@ $(document).ready(function () {
 
     // Portfolio section
     // shuffiling images
-    try {
+    /*try {
         var mixer = mixitup('#portfolio-shuffle');
     } catch (error) {
         console.log("error: " + error);
     }
     $("section.portfolio .prog-filter ul").on('click' , 'li' , function(){
         $(this).addClass("active").siblings().removeClass("active")
-    });
+    });*/
     // ---------------
 
     // Skills Progress
@@ -147,41 +147,6 @@ $(document).ready(function () {
     review_image.controller.control = review_text;
     review_text.controller.control = review_image;
     // ---------------
-
-    // Contact Form Validation & Activation
-    $("form.contact-form").submit(function (e) { 
-        e.preventDefault(e);
-        $.ajax({
-        type: 'POST',
-        url: $(this).attr('action'),
-        data: $(this).serialize()
-        })
-        .done(function(response) {
-            // Make sure that the formMessages div has the 'success' class.
-            $('.contact-message').fadeIn();
-            $('.contact-message').text(response);
-            $("form").find("input:not(input[type='submit'])").val('');
-            $("form").find("textarea").val('');
-            $('.contact-message').delay(3000).fadeOut()
-        })
-        .fail(function(data) {
-            // Set the message text.
-            if (data.responseText !== '') {
-                $('.contact-message').fadeIn();
-                $('.contact-message').text(data.responseText);
-                $("form").find("input:not(input[type='submit'])").val('');
-                $("form").find("textarea").val('');
-                $('.contact-message').delay(3000).fadeOut()
-            } else {
-                $('.contact-message').fadeIn();
-                $('.contact-message').text('Oops! An error occured and your message could not be sent.');
-                $("form").find("input:not(input[type='submit'])").val('');
-                $("form").find("textarea").val('');
-                $('.contact-message').delay(3000).fadeOut()
-            }
-        });
-    });
-    // ---------------
     
     // Fancy cursor
     var is_mobile = 'No';
@@ -228,6 +193,10 @@ $(document).ready(function () {
         $(".fancy-cursor-circle").remove()
     }
 
+    $.getJSON("json/blog.json", function(data) {
+        blogJson = data;
+    });
+
     $.getJSON("json/translation.json", function(data) {
         translations = data;
         let languageSelect = document.getElementById("language-select");
@@ -237,6 +206,8 @@ $(document).ready(function () {
 
         document.getElementById("language-select").style.visibility = "visible";
     });
+
+    document.getElementById("year").innerHTML = String(new Date().getFullYear());
 });
 
 function translate(lang) {
@@ -244,7 +215,6 @@ function translate(lang) {
     translateBanner(lang);
     translateAbout(lang);
     translateActivities(lang);
-    translateGallery(lang);
     translateTrainers(lang);
     translateBlogs(lang);
     translateCalendar(lang);
@@ -315,37 +285,6 @@ function translateActivities(lang) {
     }
 }
 
-function translateGallery(lang) {
-    try {
-        document.getElementById("gallery-see-more-title").innerHTML  = translations.gallery.more[lang];
-    } catch (error) {
-        console.log("Gallery translation to " + lang + ", error: " + error);
-    }
-
-    try {
-        document.getElementById("gallery-all").textContent = translations.gallery.all[lang];
-        document.getElementById("gallery-education").textContent = translations.gallery.education[lang];
-        document.getElementById("gallery-activity").textContent = translations.gallery.activity[lang];
-        document.getElementById("gallery-entertainment").textContent = translations.gallery.entertainment[lang];
-    } catch (error) {
-        console.log("Gallery translation to " + lang + ", error: " + error);
-    }
-
-    try {
-        document.getElementById("gallery-title").innerHTML = translations.gallery.title[lang];
-        document.getElementById("gallery-title1").innerHTML  = translations.gallery.entertainment[lang];
-        document.getElementById("gallery-description1").innerHTML  = translations.gallery.images.description1[lang];
-        document.getElementById("gallery-title2").innerHTML  = translations.gallery.activity[lang];
-        document.getElementById("gallery-description2").innerHTML  = translations.gallery.images.description2[lang];
-        document.getElementById("gallery-title3").innerHTML  = translations.gallery.education[lang];
-        document.getElementById("gallery-description3").innerHTML  = translations.gallery.images.description3[lang];
-        document.getElementById("gallery-title4").innerHTML  = translations.gallery.entertainment[lang];
-        document.getElementById("gallery-description4").innerHTML  = translations.gallery.images.description4[lang];
-    } catch (error) {
-        console.log("Gallery translation to " + lang + ", error: " + error);
-    }
-}
-
 function translateTrainers(lang) {
     try {
         document.getElementById("trainers-title").innerHTML = translations.trainers.title[lang];
@@ -366,23 +305,43 @@ function translateTrainers(lang) {
 
 function translateBlogs(lang) {
     try {
-        document.getElementById("blog1-type").innerHTML = translations.blogs.blog1.type[lang];
-        document.getElementById("blog1-title").innerHTML = translations.blogs.blog1.title[lang];
-        document.getElementById("blog1-short-description").innerHTML = translations.blogs.blog1.shortDescription[lang];
-        document.getElementById("blog1-modal-title").innerHTML = translations.blogs.blog1.title[lang];
-        document.getElementById("blog1-modal-description").innerHTML = translations.blogs.blog1.description[lang];
+        document.getElementById("blog-title").innerHTML = translations.blogs.title[lang];
 
-        document.getElementById("blog2-type").innerHTML = translations.blogs.blog2.type[lang];
-        document.getElementById("blog2-title").innerHTML = translations.blogs.blog2.title[lang];
-        document.getElementById("blog2-short-description").innerHTML = translations.blogs.blog2.shortDescription[lang];
-        document.getElementById("blog2-modal-title").innerHTML = translations.blogs.blog2.title[lang];
-        document.getElementById("blog2-modal-description").innerHTML = translations.blogs.blog2.description[lang];
+        document.getElementById("blog1-type").innerHTML = translations.blogs.fifaSummerCup2023.type[lang];
+        document.getElementById("blog1-title").innerHTML = translations.blogs.fifaSummerCup2023.title[lang];
+        document.getElementById("blog1-short-description").innerHTML = translations.blogs.fifaSummerCup2023.shortDescription[lang];
 
-        document.getElementById("blog3-type").innerHTML = translations.blogs.blog3.type[lang];
-        document.getElementById("blog3-title").innerHTML = translations.blogs.blog3.title[lang];
-        document.getElementById("blog3-short-description").innerHTML = translations.blogs.blog3.shortDescription[lang];
-        document.getElementById("blog3-modal-title").innerHTML = translations.blogs.blog3.title[lang];
-        document.getElementById("blog3-modal-description").innerHTML = translations.blogs.blog3.description[lang];
+        document.getElementById("blog2-type").innerHTML = translations.blogs.guitarCourse.type[lang];
+        document.getElementById("blog2-title").innerHTML = translations.blogs.guitarCourse.title[lang];
+        document.getElementById("blog2-short-description").innerHTML = translations.blogs.guitarCourse.shortDescription[lang];
+
+        document.getElementById("blog3-type").innerHTML = translations.blogs.chessCourse.type[lang];
+        document.getElementById("blog3-title").innerHTML = translations.blogs.chessCourse.title[lang];
+        document.getElementById("blog3-short-description").innerHTML = translations.blogs.chessCourse.shortDescription[lang];
+
+        document.getElementById("blog4-type").innerHTML = translations.blogs.acGirlsSummerCup2023.type[lang];
+        document.getElementById("blog4-title").innerHTML = translations.blogs.acGirlsSummerCup2023.title[lang];
+        document.getElementById("blog4-short-description").innerHTML = translations.blogs.acGirlsSummerCup2023.shortDescription[lang];
+
+        document.getElementById("blog5-type").innerHTML = translations.blogs.origamiCourse.type[lang];
+        document.getElementById("blog5-title").innerHTML = translations.blogs.origamiCourse.title[lang];
+        document.getElementById("blog5-short-description").innerHTML = translations.blogs.origamiCourse.shortDescription[lang];
+
+        document.getElementById("blog6-type").innerHTML = translations.blogs.acSummerCup2023.type[lang];
+        document.getElementById("blog6-title").innerHTML = translations.blogs.acSummerCup2023.title[lang];
+        document.getElementById("blog6-short-description").innerHTML = translations.blogs.acSummerCup2023.shortDescription[lang];
+
+        document.getElementById("blog7-type").innerHTML = translations.blogs.drivingCourse.type[lang];
+        document.getElementById("blog7-title").innerHTML = translations.blogs.drivingCourse.title[lang];
+        document.getElementById("blog7-short-description").innerHTML = translations.blogs.drivingCourse.shortDescription[lang];
+
+        document.getElementById("blog8-type").innerHTML = translations.blogs.gridWinterCup2023.type[lang];
+        document.getElementById("blog8-title").innerHTML = translations.blogs.gridWinterCup2023.title[lang];
+        document.getElementById("blog8-short-description").innerHTML = translations.blogs.gridWinterCup2023.shortDescription[lang];
+
+        document.getElementById("blog9-type").innerHTML = translations.blogs.gridGirlsWinterCup2023.type[lang];
+        document.getElementById("blog9-title").innerHTML = translations.blogs.gridGirlsWinterCup2023.title[lang];
+        document.getElementById("blog9-short-description").innerHTML = translations.blogs.gridGirlsWinterCup2023.shortDescription[lang];
     } catch (error) {
         console.log("Blog translation to " + lang + ", error: " + error);
     }
