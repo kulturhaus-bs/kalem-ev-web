@@ -210,7 +210,61 @@
       "en": "BLOG & GALLERY",
       "tr": "BLOG & GALERİ"
     },
-    "fifaSummerCup2023": {
+    "deutschkurs": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "",
+        "en": "",
+        "tr": ""
+      },
+      "shortDescription": {
+        "de": "",
+        "en": "",
+        "tr": ""
+      },
+      "description": {
+        "de": "",
+        "en": "",
+        "tr": ""
+      },
+      "date": {
+        "de": "18 Juni 2023",
+        "en": "18 June 2023",
+        "tr": "18 Haziran 2023"
+      }
+    },
+    "Programmierkurse": {
+      "type": {
+        "de": "Unterhaltung",
+        "en": "Entertainment",
+        "tr": "Eğlence"
+      },
+      "title": {
+        "de": "",
+        "en": "",
+        "tr": ""
+      },
+      "shortDescription": {
+        "de": "",
+        "en": "",
+        "tr": ""
+      },
+      "description": {
+        "de": "",
+        "en": "",
+        "tr": ""
+      },
+      "date": {
+        "de": "18 Juni 2023",
+        "en": "18 June 2023",
+        "tr": "18 Haziran 2023"
+      }
+    },
+    "dance": {
       "type": {
         "de": "Unterhaltung",
         "en": "Entertainment",

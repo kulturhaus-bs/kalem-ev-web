@@ -1,25 +1,24 @@
 {
-  "fifaSummerCup2023": {
+  "Programmierkurse": {
     "images": [
-      "images/blog/fifa-summer-cup-2023/00-ps-fifa-summer-cup-2023.png",
-      "images/blog/fifa-summer-cup-2023/01.jpg",
-      "images/blog/fifa-summer-cup-2023/02.jpg",
-      "images/blog/fifa-summer-cup-2023/03.jpg",
-      "images/blog/fifa-summer-cup-2023/04.jpg",
-      "images/blog/fifa-summer-cup-2023/05.jpg",
-      "images/blog/fifa-summer-cup-2023/06.jpg",
-      "images/blog/fifa-summer-cup-2023/07.jpg",
-      "images/blog/fifa-summer-cup-2023/08.jpg",
-      "images/blog/fifa-summer-cup-2023/09.jpg",
-      "images/blog/fifa-summer-cup-2023/10.jpg"
+      "images/blog/Programmierkurse/00-coding.png",
+      "images/blog/Programmierkurse/01-coding.jpg",
+      "images/blog/Programmierkurse/02-coding.jpg",
+      "images/blog/Programmierkurse/03-coding.jpg",
+      "images/blog/Programmierkurse/04-coding.jpg"
     ]
   },
-  "guitarCourse": {
+  "dance": {
     "images": [
-      "images/blog/guitar-course/00-guitar-course.png",
-      "images/blog/guitar-course/01.jpg",
-      "images/blog/guitar-course/02.jpg",
-      "images/blog/guitar-course/03.jpg"
+      "images/blog/dance/00-dance.png",
+      "images/blog/dance/01-dance.jpg",
+      "images/blog/dance/02-dance.jpg",
+      "images/blog/dance/03-dance.jpg"
+    ]
+  },
+  "deutschkurs": {
+    "images": [
+      "images/blog/deutschkurs/deutschkurs.jpg"
     ]
   },
   "chessCourse": {
