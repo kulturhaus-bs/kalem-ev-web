@@ -1,96 +1,64 @@
 {
-  "Programmierkurse": {
+  "deutschImAlltag": {
+    "title": "Deutsch Im Alltag",
+    "description": "Sprachliche Kompetenzen werden durch einfache Übungen erweitert, die beim Alltag helfen. Neue Wörter und Redewendungen werden gelernt und direkt benutzt. Mit kurzen Texten, Gesprächen und einfachen Geschichten verbessern die Lernenden ihr Sprechen, Verstehen und Schreiben. So können sie sich besser in der neuen Umgebung verständigen.",
+    "date": "Juli 2023 - Dezember 2023 | August 2024 - heutzutage",
     "images": [
-      "images/blog/Programmierkurse/00-coding.png",
-      "images/blog/Programmierkurse/01-coding.jpg",
-      "images/blog/Programmierkurse/02-coding.jpg",
-      "images/blog/Programmierkurse/03-coding.jpg",
-      "images/blog/Programmierkurse/04-coding.jpg",
-      "images/blog/Programmierkurse/05-coding.jpg",
-      "images/blog/Programmierkurse/06-coding.jpg"
+      "images/blog/deutsch-im-alltag/00-deutsch-im-alltag.png",
+      "images/blog/deutsch-im-alltag/01.jpg",
+      "images/blog/deutsch-im-alltag/02.jpg",
+      "images/blog/deutsch-im-alltag/03.jpg"
     ]
   },
-  "dance": {
+  "codingKurse": {
+    "title": "Coding Kurse",
+    "description": "Dieser Kurs vermittelt die Grundlagen der Logik und Problemlösung und führt in die Basis von Programmiersprachen ein. Die Teilnehmenden lernen, Algorithmen zu entwickeln und mit Flussdiagrammen darzustellen, um Probleme systematisch anzugehen. Ein weiterer Schwerpunkt liegt auf Debugging-Techniken und der Entwicklung von Ausdauer, um Herausforderungen erfolgreich zu meistern. Darüber hinaus fördert der Kurs Kreativität und Zusammenarbeit, damit Lernende gemeinsam innovative Lösungen erarbeiten können.",
+    "date": "Juli 2023 - Dezember 2023",
     "images": [
-      "images/blog/dance/00-dance.png",
-      "images/blog/dance/01-dance.jpg",
-      "images/blog/dance/02-dance.jpg"
+      "images/blog/coding-course/00-coding-course.png",
+      "images/blog/coding-course/01.jpg",
+      "images/blog/coding-course/02.jpg",
+      "images/blog/coding-course/03.jpg",
+      "images/blog/coding-course/04.jpg",
+      "images/blog/coding-course/05.jpg",
+      "images/blog/coding-course/06.jpg"
     ]
   },
-  "deutschkurs": {
+  "bildungsReisen": {
+    "title": "Bildungs Reisen",
+    "description": "Verschiedene Ausflüge.",
+    "date": "Oktober 2023 - heutzutage",
     "images": [
-      "images/blog/deutschkurs/deutschkurs.jpg"
-    ]
-  },
-  "chessCourse": {
-    "images": [
-      "images/blog/chess-course/00-chess-course.png",
-      "images/blog/chess-course/01.jpg",
-      "images/blog/chess-course/02.jpg",
-      "images/blog/chess-course/03.jpg",
-      "images/blog/chess-course/04.jpg",
-      "images/blog/chess-course/05.jpg",
-      "images/blog/chess-course/06.jpg"
+      "images/blog/bildungsreisen/00-bildungsreisen.png",
+      "images/blog/bildungsreisen/01.jpg",
+      "images/blog/bildungsreisen/02.jpg"
     ]
   },
   "origamiCourse": {
+    "title": "Origami lernen",
+    "description": " Kreativität und Konzentration fördern,",
+    "date": "Juli 2023 - Dezember 2023",
     "images": [
-      "images/blog/origami-course/00-origami-course.png",
-      "images/blog/origami-course/01.jpg",
-      "images/blog/origami-course/02.jpg",
-      "images/blog/origami-course/03.jpg",
-      "images/blog/origami-course/04.jpg",
-      "images/blog/origami-course/05.jpg",
-      "images/blog/origami-course/06.jpg",
-      "images/blog/origami-course/07.jpg",
-      "images/blog/origami-course/08.jpg",
-      "images/blog/origami-course/09.jpg",
-      "images/blog/origami-course/10.jpg",
-      "images/blog/origami-course/11.jpg",
-      "images/blog/origami-course/12.png"
+      "images/blog/origami-course/00-origami-course.png"
     ]
   },
-  "acGirlsSummerCup2023": {
+  "InterkulturellerLeseclub": {
+    "title": "Interkultureller Leseclub",
+    "description": "Mehrsprachige Kinderbücher helfen Kindern aus Einwandererfamilien, ihre Muttersprache zu bewahren und gleichzeitig die neue Umgebungssprache spielerisch zu entdecken. Sie fördern Sprachkompetenz, Selbstbewusstsein und ein Gefühl der Zugehörigkeit. So werden Brücken gebaut, die Integration in die Gemeinschaft erleichtern.",
+    "date": "18 Juni 2023",
     "images": [
-      "images/blog/ac-girls-summer-cup-2023/00-ac-girls-summer-cup-2023.png",
-      "images/blog/ac-girls-summer-cup-2023/01.png",
-      "images/blog/ac-girls-summer-cup-2023/02.png",
-      "images/blog/ac-girls-summer-cup-2023/03.jpg",
-      "images/blog/ac-girls-summer-cup-2023/04.jpg",
-      "images/blog/ac-girls-summer-cup-2023/05.jpg"
+      "images/blog/interkultureller-leseclub/00-interkultureller-leseclub.jpg",
+      "images/blog/interkultureller-leseclub/01.jpg",
+      "images/blog/interkultureller-leseclub/02.jpg"
     ]
   },
-  "acSummerCup2023": {
+  "seminare": {
+    "title": "AC Summer Cup 2023",
+    "description": "Pädagogische Seminare - Wissen über Erziehung und das Bildungssystem vermitteln.",
+    "date": "29 Juli 2023",
     "images": [
-      "images/blog/ac-summer-cup-2023/00-ac-summer-cup-2023.png",
-      "images/blog/ac-summer-cup-2023/01.jpg",
-      "images/blog/ac-summer-cup-2023/02.png",
-      "images/blog/ac-summer-cup-2023/03.jpg",
-      "images/blog/ac-summer-cup-2023/04.jpg"
-    ]
-  },
-  "drivingCourse": {
-    "images": [
-      "images/blog/driving-course/00-driving-simulator.png",
-      "images/blog/driving-course/01.png",
-      "images/blog/driving-course/02.png",
-      "images/blog/driving-course/03.png",
-      "images/blog/driving-course/04.png",
-      "images/blog/driving-course/05.png"
-    ]
-  },
-  "gridWinterCup2023": {
-    "images": [
-      "images/blog/grid-winter-cup-2023/00-grid-winter-cup-2023.png",
-      "images/blog/grid-winter-cup-2023/01.png",
-      "images/blog/grid-winter-cup-2023/02.png",
-      "images/blog/grid-winter-cup-2023/03.png"
-    ]
-  },
-  "gridGirlsWinterCup2023": {
-    "images": [
-      "images/blog/grid-girls-winter-cup-2023/00-grid-girls-winter-cup-2023.png",
-      "images/blog/grid-girls-winter-cup-2023/01.png"
+      "images/blog/seminare/00-seminare.jpg",
+      "images/blog/seminare/01.jpg"
     ]
   }
 }
