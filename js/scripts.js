@@ -1,28 +1,7 @@
 window.addEventListener('DOMContentLoaded', event => {
-
-    // Navbar shrink function
-    var navbarShrink = function () {
-        const navbarCollapsible = document.body.querySelector('#mainNav');
-        if (!navbarCollapsible) {
-            return;
-        }
-        if (window.scrollY === 0) {
-            navbarCollapsible.classList.remove('navbar-shrink')
-        } else {
-            navbarCollapsible.classList.add('navbar-shrink')
-        }
-
-    };
-
-    // Shrink the navbar 
-    navbarShrink();
-
-    // Shrink the navbar when page is scrolled
-    document.addEventListener('scroll', navbarShrink);
-
     //  Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
+    if (mainNav && typeof bootstrap !== 'undefined' && bootstrap.ScrollSpy) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
             rootMargin: '0px 0px -40%',
@@ -42,13 +21,28 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    fetch('json/blog.json')  // Ensure data.json is in the same directory
-        .then(response => response.json()) // Convert response to JSON
-        .then(data => {
-            //console.log("json data:" + JSON.stringify(data, null, 2));
-            blogJson = data;
+    fetch('json/blog.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Could not load blog.json: ${response.status}`);
+            }
+            return response.json();
         })
-        .catch(error => console.error('Error loading JSON:', error));
+        .then(data => {
+            blogJson = data;
+            renderBlogCards(data);
+        })
+        .catch(error => {
+            console.error('Error loading blog data:', error);
+            const loadingMessage = document.querySelector(".portfolio-loading");
+            if (loadingMessage) {
+                loadingMessage.textContent = "Blogbeiträge konnten nicht geladen werden.";
+            }
+            const allPortfolioLoadingMessage = document.querySelector(".all-portfolio-loading");
+            if (allPortfolioLoadingMessage) {
+                allPortfolioLoadingMessage.textContent = "Blogbeiträge konnten nicht geladen werden.";
+            }
+        });
 
     document.getElementById("year").innerHTML = String(new Date().getFullYear());
 

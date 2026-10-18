@@ -151,88 +151,19 @@
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Blog & Galerie</h2>
         </div>
-        <div class="row">
+        <div class="row" id="portfolio-items" aria-live="polite">
+            <p class="col-12 text-center portfolio-loading">Beiträge werden geladen...</p>
             <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 1-->
                 <div class="portfolio-item">
-                    <a class="portfolio-link" onclick="onBlogClick('deutschImAlltag')" data-bs-toggle="modal" href="#portfolioModal">
+                    <a class="portfolio-link portfolio-more" href="#allPortfolioModal" data-bs-toggle="modal" aria-label="Alle Projekte anzeigen">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="images/blog/deutsch-im-alltag/00-deutsch-im-alltag.png" alt="..." />
+                        <img class="img-fluid" src="images/blog/more-projects.svg" alt="Illustration weiterer Projekte" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Deutsch Im Alltag</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 2-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" onclick="onBlogClick('codingKurse')" data-bs-toggle="modal" href="#portfolioModal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="images/blog/coding-course/00-coding-course.png" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Coding Kurse</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <!-- Portfolio item 3-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" onclick="onBlogClick('bildungsReisen')" data-bs-toggle="modal" href="#portfolioModal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="images/blog/bildungsreisen/00-bildungsreisen.png" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Bildungsreisen</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                <!-- Portfolio item 5-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" onclick="onBlogClick('InterkulturellerLeseclub')" data-bs-toggle="modal" href="#portfolioModal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="images/blog/interkultureller-leseclub/00-interkultureller-leseclub.jpg" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Interkultureller Leseclub</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                <!-- Portfolio item 4-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" onclick="onBlogClick('origamiCourse')" data-bs-toggle="modal" href="#portfolioModal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="images/blog/origami-course/00-origami-course.png" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Origami Lernen</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <!-- Portfolio item 6-->
-                <div class="portfolio-item">
-                    <a class="portfolio-link" onclick="onBlogClick('seminare')" data-bs-toggle="modal" href="#portfolioModal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="images/blog/seminare/00-seminare.jpg" alt="..." />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Seminare</div>
+                        <div class="portfolio-caption-heading">Mehr entdecken</div>
+                        <div class="portfolio-caption-subheading">Weitere Projekte und Aktivitäten</div>
                     </div>
                 </div>
             </div>
@@ -359,6 +290,64 @@
                             <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                 <i class="fas fa-xmark me-1"></i>
                                 schließen
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- All portfolio items modal-->
+<div class="portfolio-modal modal fade" id="allPortfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <button class="close-modal" type="button" aria-label="Schließen" onclick="closeAllProjectsModal()" style="z-index: 1; position: absolute;">
+                <img src="images/close-icon.svg" alt="Close modal" />
+            </button>
+            <div class="container-fluid" id="all-project-list-view">
+                <div class="modal-body">
+                    <h2 class="text-uppercase">Alle Projekte</h2>
+                    <div class="row" id="all-portfolio-items" aria-live="polite">
+                        <p class="col-12 text-center all-portfolio-loading">Beiträge werden geladen...</p>
+                    </div>
+                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                        <i class="fas fa-xmark me-1"></i>
+                        Schließen
+                    </button>
+                </div>
+            </div>
+            <div class="container d-none" id="all-project-detail-view">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <h2 id="all-project-title" class="text-uppercase"></h2>
+                            <img id="all-project-image" class="img-fluid d-block mx-auto" src="" alt="" />
+                            <div class="d-flex justify-content-between" style="margin-bottom: 1rem">
+                                <button type="button" class="btn btn-outline-dark" onclick="showPrevBlogImage()">
+                                    <i class="fas fa-angle-left"></i>
+                                    <i class="fas fa-angle-left"></i>
+                                    <i class="fas fa-angle-left"></i>
+                                </button>
+                                <h4 id="all-project-image-number"></h4>
+                                <button type="button" class="btn btn-outline-dark" onclick="showNextBlogImage()">
+                                    <i class="fas fa-angle-right"></i>
+                                    <i class="fas fa-angle-right"></i>
+                                    <i class="fas fa-angle-right"></i>
+                                </button>
+                            </div>
+                            <p id="all-project-description"></p>
+                            <div class="modal-footer d-flex justify-content-between">
+                                <div class="blog-share d-flex"></div>
+                                <span class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span id="all-project-date"></span>
+                                </span>
+                            </div>
+                            <button class="btn btn-primary btn-xl text-uppercase" type="button" onclick="showAllProjectsList()">
+                                <i class="fas fa-arrow-left me-1"></i>
+                                Zurück zu allen Projekten
                             </button>
                         </div>
                     </div>
